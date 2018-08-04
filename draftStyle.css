@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto" "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     margin: 1em;
   }
   
@@ -53,13 +53,7 @@ body {
     margin: 10px;
     box-shadow: 5px 5px 5px 5px #888888;
     }
-  #google-scholar {
-    width: 30px;
-  }
-
-
-
-
+  
   .credential-images {
   text-align: center
   }
@@ -110,5 +104,3 @@ body {
   width: 80%;
   box-shadow: 5px 5px 5px 5px #888888;
 }
-
-  
