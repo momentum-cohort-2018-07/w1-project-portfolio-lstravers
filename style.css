@@ -3,9 +3,8 @@ body {
     margin: 1em;
     font-size: 20px;
     line-height: normal; 
-    background-color: azure;
+    background-color:aliceblue;
   }
-
 
   a {
     outline: none;
@@ -69,7 +68,8 @@ body {
   
   #navigation-menu {
      padding: 1px 0;
-     min-width: 500px; 
+     min-width: 500px;
+     text-decoration-style: none; 
   }
 
   #profilepic {
@@ -80,6 +80,7 @@ body {
     margin: 10px;
     box-shadow: 5px 5px 5px 5px #888888;
     }
+
   #google-scholar {
     width: 30px;
   }
@@ -120,20 +121,40 @@ body {
   /*media queries
   swap <p> orders to rearrange on resize syntax: order: integer (default=0)
 
-  /* myProjects */
+  /* Projects */
  #projects-head {
-   text-align: center;
+   text-align: left;
  }
 
-  #dog-adoption {
-    width: 80%;
-    box-shadow: 5px 5px 5px 5px #888888;
+ .navigationMenu {
+
+ }
+
+ .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 50px;
+ }
+
+ .flexItem {
+   max-width: 60%;
+   padding: 30px;
+   border: 1px solid gray; 
+ }
+
+/* RESUME */
+
+#navigation-menu {
+  padding: 1px 0;
+  min-width: 500px; 
 }
 
-#plant-nursery {
-  width: 80%;
-  box-shadow: 5px 5px 5px 5px #888888;
-}
+.flexContainer
+
+
 
   /* BLOG */  
 .about-me {
