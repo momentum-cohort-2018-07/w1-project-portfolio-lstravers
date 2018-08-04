@@ -1,13 +1,21 @@
 body {
-    font-family: "Roboto" "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-family: 'Roboto', sans-serif, arial, 'Slabo 27px', serif, "Benton Sans", "Helvetica Neue", helvetica;
     margin: 1em;
+    font-size: 20px;
+    line-height: normal; 
   }
-  
+
+
   a {
     outline: none;
     text-decoration: none;
     padding: 2px 1px 0;
     color: #0065CC;
+  }
+
+  .top {
+    text-align: right;
+    font-size: 15px;
   }
 
   .title { 
@@ -57,15 +65,16 @@ body {
     width: 30px;
   }
 
-
-
-
   .credential-images {
   text-align: center
   }
   
   #acrpmember {
   margin-right: 10px;
+  }
+
+  #employment-list {
+    list-style-type: none
   }
 
   #momentum {
