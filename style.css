@@ -3,6 +3,7 @@ body {
     margin: 1em;
     font-size: 20px;
     line-height: normal; 
+    background-color: azure;
   }
 
 
@@ -27,16 +28,34 @@ body {
     text-align: center;
     padding: 1%;
     position: static;
-    background-image: url(images/waves.jpg);
     background-repeat: no-repeat;
     margin-left: 0;
   }
+#about-heading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}
+
+.about {
+  text-align: center;
+  color: gray;
+}
+
+.container {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
   .content {
   margin: none;
   font-size: 12pt;
   font-style: bold;
   text-align: center;
-  align-content: center;  
+  align-content: center; 
+  color: black; 
   }
   
   /* TOP NAVIGATION MENU BAR */
@@ -71,10 +90,6 @@ body {
   
   #acrpmember {
   margin-right: 10px;
-  }
-
-  #employment-list {
-    list-style-type: none
   }
 
   #momentum {
@@ -120,4 +135,10 @@ body {
   box-shadow: 5px 5px 5px 5px #888888;
 }
 
-  
+  /* BLOG */  
+.about-me {
+  text-align: left;
+  color: gray;
+  margin-left: 5%;
+  margin-right: 5%;
+}
