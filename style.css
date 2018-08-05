@@ -76,7 +76,7 @@ body {
     float: center;
     height: 15%;
     width: 15%;
-    border-style: solid;
+    border-style: solid gray;
     margin: 10px;
     box-shadow: 5px 5px 5px 5px #888888;
     }
@@ -122,12 +122,8 @@ body {
   swap <p> orders to rearrange on resize syntax: order: integer (default=0)
 
   /* Projects */
- #projects-head {
+ #page-head {
    text-align: left;
- }
-
- .navigationMenu {
-
  }
 
  .flexContainer {
@@ -146,13 +142,6 @@ body {
  }
 
 /* RESUME */
-
-#navigation-menu {
-  padding: 1px 0;
-  min-width: 500px; 
-}
-
-.flexContainer
 
 
 
