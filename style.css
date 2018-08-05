@@ -1,8 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif, arial, 'Slabo 27px', serif, "Benton Sans", "Helvetica Neue", helvetica;
-    margin: 1em;
-    font-size: 20px;
-    line-height: normal; 
+    margin: 5em;
+    font-size: 22px;
+    line-height: 1em ; 
     background-color:aliceblue;
   }
 
@@ -13,39 +13,23 @@ body {
     color: #0065CC;
   }
 
-  .top {
-    text-align: right;
-    font-size: 15px;
-  }
+  #profilepic {
+    width: 20%;
+    border-style: solid gray;
+    box-shadow: 5px 5px 5px 5px #888888;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
 
-  .title { 
-    font-style: normal;
-    color: #000000;
-    font-size: 20pt;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    padding: 1%;
-    position: static;
-    background-repeat: no-repeat;
-    margin-left: 0;
-  }
-#about-heading {
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
-  color: black;
-}
+    .title {
+      text-align: center;
+    }
 
-.about {
-  text-align: center;
-  color: gray;
-}
-
-.container {
+.flexContainer {
   text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
+  color: gray;
 }
 
   .content {
@@ -57,66 +41,31 @@ body {
   color: black; 
   }
   
-  /* TOP NAVIGATION MENU BAR */
-  #topmenu {
-    /* color: #000000; */
-    text-align: center;
-    font-size: 20pt;
-    padding: 5px;
-    min-width: 100px;
-  }
-  
-  #navigation-menu {
+  /* TOP NAVIGATION MENU */
+ 
+  .navigationMenu {
      padding: 1px 0;
      min-width: 500px;
      text-decoration-style: none; 
+     text-align: center;
   }
-
-  #profilepic {
-    float: center;
-    height: 15%;
-    width: 15%;
-    border-style: solid gray;
-    margin: 10px;
-    box-shadow: 5px 5px 5px 5px #888888;
-    }
 
   #google-scholar {
     width: 30px;
   }
 
-  .credential-images {
-  text-align: center
+  .flexCredentials {
+    display: flex;
   }
   
   #acrpmember {
   margin-right: 10px;
   }
-
-  #momentum {
-  padding: none;
-  margin-top: none;
-  }
   
-  #stmaarten {
-    margin-right: 8px;
-    box-shadow: 5px 5px 5px 5px #888888;
-    
+  /* Footer */
+  .footer {
+    text-align: right;
   }
-  
-  #marathon {
-  margin-bottom: 50px;
-  }
-  
-  /* Footer Menu*/
-  #footer {
-    text-decoration: #88888888;    /* White */
-    width: 100%; 
-    text-align: center;
-    padding: 10px;
-  }
-  
-  /* Footer Links*/
 
   /*media queries
   swap <p> orders to rearrange on resize syntax: order: integer (default=0)
@@ -133,6 +82,7 @@ body {
     justify-content: space-around;
     align-items: flex-start;
     margin: 50px;
+    text-decoration-color: #888888;
  }
 
  .flexItem {
@@ -152,11 +102,10 @@ body {
   align-content: flex-start;
   margin: 10px;
 }
+.flexItemEducation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 
-  /* BLOG */  
-.about-me {
-  text-align: left;
-  color: gray;
-  margin-left: 5%;
-  margin-right: 5%;
 }
+  /* BLOG */  
