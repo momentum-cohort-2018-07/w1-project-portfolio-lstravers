@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif, arial, 'Slabo 27px', serif, "Benton Sans", "Helvetica Neue", helvetica;
+    margin: 5em;
+    font-size: 22px;
+    line-height: 1em ; 
+    background-color:aliceblue;
+  }
+
+  a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: #0065CC;
+  }
+
+  #profilepic {
+    width: 20%;
+    border-style: solid gray;
+    box-shadow: 5px 5px 5px 5px #888888;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+
+    .title {
+      text-align: center;
+    }
+
+.flexContainer {
+  text-align: left;
+  color: gray;
+}
+
+  .content {
+  margin: none;
+  font-size: 12pt;
+  font-style: bold;
+  text-align: center;
+  align-content: center; 
+  color: black; 
+  }
+  
+  /* TOP NAVIGATION MENU */
+ 
+  .navigationMenu {
+     padding: 1px 0;
+     min-width: 500px;
+     text-decoration-style: none; 
+     text-align: center;
+  }
+
+  #google-scholar {
+    width: 30px;
+  }
+
+  .flexCredentials {
+    display: flex;
+  }
+  
+  #acrpmember {
+  margin-right: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: right;
+  }
+
+  /*media queries
+  swap <p> orders to rearrange on resize syntax: order: integer (default=0)
+
+  /* Projects */
+ #page-head {
+   text-align: left;
+ }
+
+ .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 50px;
+    text-decoration-color: #888888;
+ }
+
+ .flexItem {
+   max-width: 60%;
+   padding: 30px;
+   border: 1px solid gray; 
+ }
+
+/* RESUME */
+
+.flexResumeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  margin: 10px;
+}
+.flexItemEducation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+}
+  /* BLOG */  
