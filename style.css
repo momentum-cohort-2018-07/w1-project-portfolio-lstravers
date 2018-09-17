@@ -24,27 +24,26 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    position: static
-    
+    position: static    
     }
 
-    .title-container {
-      text-align: center;
-    }
+.title-container {
+  text-align: center;
+}
 
 .flexContainer {
   text-align: left;
   color: gray;
 }
 
-  .content {
+.content {
   margin: none;
   font-size: 12pt;
   font-style: bold;
   text-align: center;
   align-content: center; 
   color: black; 
-  }
+}
   
   /* TOP NAVIGATION MENU */
  
@@ -65,7 +64,7 @@ body {
   }
   
   #acrpmember {
-  margin-right: 10px;
+    margin-right: 10px;
   }
   
   /* Footer */
@@ -92,9 +91,9 @@ body {
  }
 
  .flexItem {
-   max-width: 60%;
-   padding: 30px;
-   border: 1px solid gray; 
+  max-width: 60%;
+  padding: 30px;
+  border: 1px solid gray; 
  }
 
 /* RESUME */
@@ -108,10 +107,17 @@ body {
   align-content: flex-start;
   margin: 10px;
 }
+
 .flexItemEducation {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-
 }
-  /* BLOG */  
+
+table, th, td {
+  border: solid 1px grey;
+}
+
+.table-header {
+  text-align: center;
+}
